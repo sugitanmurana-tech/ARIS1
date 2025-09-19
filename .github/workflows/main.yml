@@ -1,5 +1,5 @@
 
-name:ARIS
+name: ARIS1
 
 on:
   workflow_dispatch:
