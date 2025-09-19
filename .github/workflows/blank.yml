@@ -8,8 +8,8 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        instance: [1, 2, 3]
-    timeout-minutes: 360
+        instance: [1, 2, 3]   # 3 RDP paralel
+    timeout-minutes: 360    # 6 jam per job
 
     steps:
       - name: Configure Core RDP Settings
