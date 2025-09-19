@@ -1,5 +1,5 @@
 
-name: RDP
+name:ARIS
 
 on:
   workflow_dispatch:
